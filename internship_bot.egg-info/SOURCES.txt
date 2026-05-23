@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+internship_bot.egg-info/PKG-INFO
+internship_bot.egg-info/SOURCES.txt
+internship_bot.egg-info/dependency_links.txt
+internship_bot.egg-info/requires.txt
+internship_bot.egg-info/top_level.txt

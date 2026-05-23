@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "internship-bot"
+version = "0.1.0"
+description = "Job board scraper with AI matching and phone notifications"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.28.1",
+    "apscheduler>=3.11.2",
+    "anthropic>=0.104.1",
+    "python-dotenv>=1.2.2",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]

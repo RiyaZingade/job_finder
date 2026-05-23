@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: internship-bot
+Version: 0.1.0
+Summary: Job board scraper with AI matching and phone notifications
+Requires-Python: >=3.11
+Requires-Dist: httpx>=0.28.1
+Requires-Dist: apscheduler>=3.11.2
+Requires-Dist: anthropic>=0.104.1
+Requires-Dist: python-dotenv>=1.2.2
